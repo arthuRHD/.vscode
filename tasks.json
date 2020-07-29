@@ -1,0 +1,23 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Git Aliases setup",
+      "type": "shell",
+      "command": "sh gitaliases.sh",
+      "isBackground": true
+    },
+    {
+      "label": "run Appium-OpenCV",
+      "type": "shell",
+      "command": "docker run --privileged -d -p 4723:4723  -v /dev/bus/usb:/dev/bus/usb --name qa-appium arichard76/appium-opencv:latest"
+    },
+    {
+      "label": "Pytest",
+      "type": "shell",
+      "command": "python3 -m pytest -v"
+    }
+  ]
+}

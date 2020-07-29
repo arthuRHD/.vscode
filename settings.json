@@ -1,0 +1,19 @@
+{
+    "[javascript]": {
+        "editor.autoIndent": "none",
+        "editor.formatOnSave": false
+    },
+    "python.pythonPath": "/usr/bin/python3",
+    "python.testing.pytestEnabled": true,
+    "python.testing.pytestArgs": [ "-v" ],
+    "files.autoSave": "onFocusChange",
+    "editor.formatOnSave": true,
+    "debug.console.fontFamily": "Fira Code Retina",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "workbench.colorTheme": "Monokai",
+    "python.languageServer": "Microsoft",
+    "editor.fontFamily": "Fira Code Retina",
+    "terminal.integrated.fontFamily": "monospace"
+}
