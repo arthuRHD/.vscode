@@ -16,6 +16,18 @@
       "label": "Pytest",
       "type": "shell",
       "command": "python3 -m pytest -v"
+    },
+    {
+      "label": "Create python virtual environment",
+      "type": "shell",
+      "command": "python3 -m venv ${input:env_name}"
+    }
+  ],
+  "inputs": [
+    {
+      "id": "env_name",
+      "type": "promptString",
+      "description": "the name of the virtual environment"
     }
   ]
 }
