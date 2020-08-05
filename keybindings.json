@@ -4,6 +4,11 @@
     "command": "workbench.action.terminal.new"
   },
   {
+    "key": "ctrl+[Period]",
+    "command": "editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
     "key": "alt+numpad_multiply",
     "command": "workbench.action.tasks.runTask"
   }
