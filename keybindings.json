@@ -4,7 +4,7 @@
     "command": "workbench.action.terminal.new"
   },
   {
-    "key": "[Backquote]",
-    "command": "workbench.action.tasks.openWorkspaceFileTasks"
+    "key": "alt+numpad_multiply",
+    "command": "workbench.action.tasks.runTask"
   }
 ]

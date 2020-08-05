@@ -20,7 +20,7 @@
     {
       "label": "Create python virtual environment",
       "type": "shell",
-      "command": "python3 -m venv ${input:env_name}"
+      "command": "python3 -m virtualenv ${input:env_name}"
     }
   ],
   "inputs": [
