@@ -13,3 +13,5 @@ code --install-extension ms-vscode-remote.remote-ssh
 code --install-extension ms-vscode-remote.remote-ssh-edit
 code --install-extension PKief.material-icon-theme
 code --install-extension VisualStudioExptTeam.vscodeintellicode
+code --install-extension bierner.markdown-preview-github-styles
+code --install-extension GitHub.github-vscode-theme
