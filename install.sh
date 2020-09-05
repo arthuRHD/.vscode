@@ -15,3 +15,8 @@ code --install-extension PKief.material-icon-theme
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension bierner.markdown-preview-github-styles
 code --install-extension GitHub.github-vscode-theme
+cp ./zsh/.zshrc ~/.zshrc
+cp -r ./zsh/.oh-my-zsh ~/.oh-my-zsh
+echo "exec zsh" >> ~/.bashrc
+source ~/.bashrc
+source ~/.zshrc
