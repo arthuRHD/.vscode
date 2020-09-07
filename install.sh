@@ -15,6 +15,13 @@ code --install-extension PKief.material-icon-theme
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension bierner.markdown-preview-github-styles
 code --install-extension GitHub.github-vscode-theme
+git clone https://github.com/gabrielelana/awesome-terminal-fonts ~/Downloads/awesome-terminal-fonts && ~/Downloads/awesome-terminal-fonts/install.sh
+git clone https://github.com/powerline/fonts.git --depth=1 ~/Downloads/fonts-powerline && ~/Downloads/fonts-powerline/install.sh
+apt install fonts-firacode -y
+cp settings.json ~/.config/Code/User/settings.json
+cp keybindings.json ~/.config/Code/User/keybindings.json
+cp tasks.json ~/.config/Code/User/tasks.json
+cp launch.json ~/.config/Code/User/launch.json
 cp ./zsh/.zshrc ~/.zshrc
 cp -r ./zsh/.oh-my-zsh ~/.oh-my-zsh
 echo "exec zsh" >> ~/.bashrc
